@@ -6,6 +6,11 @@ namespace LoyaltyLu\DesignPatterns\Factory\OptimizeAbstractFactory;
 use ReflectionClass;
 use ReflectionException;
 
+/**
+ * 利用反射优化抽象工厂
+ * Class FactoryWithReflection
+ * @package LoyaltyLu\DesignPatterns\Factory\OptimizeAbstractFactory
+ */
 class FactoryWithReflection
 {
     /**
