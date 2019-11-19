@@ -1,0 +1,24 @@
+{
+    "name": "loyalty-lu/design-patterns",
+    "description": "php design patterns",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LoyaltyLu",
+            "email": "979126035@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LoyaltyLu\\DesignPatterns\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.1.3"
+    }
+}
