@@ -1,14 +1,14 @@
 <?php
 
 
-namespace LoyaltyLu\DesignPatterns\Factory\AbstractFactory;
+namespace LoyaltyLu\DesignPatterns\Factory\OptimizeAbstractFactory;
 
 /**
  * 4. 创建具体产品类（继承抽象产品类） & 定义生产的具体产品
- * Class
+ * Class ManMonkey
  * @package LoyaltyLu\DesignPatterns\Factory\AbstractFactory
  */
-class ApeMonkey implements Monkey
+class ManMonkey implements Monkey
 {
     /**
      * @return mixed
